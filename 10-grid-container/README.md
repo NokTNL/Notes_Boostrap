@@ -1,0 +1,2 @@
+- One layout for ALL devices (but make it responsive and adaptable)
+- The Bootstrap grid system has 12 columns (at all breakpoint levels)
