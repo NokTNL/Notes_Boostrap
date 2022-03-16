@@ -1,0 +1,9 @@
+[class*="col"] {
+  background-color: skyblue;
+  border: 1px solid black;
+}
+
+.child {
+  border: 1px solid black;
+  background-color: rgb(211, 206, 206);
+}
