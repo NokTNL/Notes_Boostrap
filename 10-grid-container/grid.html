@@ -27,9 +27,11 @@
     <!-- Rows and columns -->
     <div class="container-md border">
       .container-md (768px) with rows & columns
-      <!-- .col: Span all the way through the row, like CSS grid's "1fr" for all -->
+      <!-- Rows are wrappers of columns -->
+      <!-- Columns span all the way through the row, like CSS grid's "1fr" for all -->
       <!--  !! Default behaviour of overflow: flex-wrap -->
-      <!-- !! Anything elements within a row without being surrounded by a col will be treated as a new row inside -->
+      <!-- !! Anything elements within a row without being surrounded by a col will functionally be equivalent to new rows inside -->
+      <!-- !! Rows can be nested -->
       <div class="row">
         <div class="col">col</div>
         <div class="col">col</div>
@@ -89,6 +91,14 @@
         </div>
         <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
           col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12
+        </div>
+
+        <!-- .row-cols-*: set the number of columns inside the row ( will wrap if number of col items exceeds that) -->
+        row row-cols-2 (see below)
+        <div class="row row-cols-2">
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="col">col</div>
         </div>
       </div>
     </div>
