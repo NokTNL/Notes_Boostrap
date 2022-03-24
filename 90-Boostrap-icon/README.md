@@ -5,6 +5,8 @@
   - CSS: @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 - npm:
   > npm i bootstrap-icons
+  - Then in index.js/App.js, include:
+    > import "bootstrap-icons/font/bootstrap-icons.css";
 
 # Usage:
 
